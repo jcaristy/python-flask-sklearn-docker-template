@@ -22,7 +22,7 @@ def index():
 
 
 
-@app.route('/prediction/api/v1.0/some_prediction', methods=['GET'])
+@app.route('/prediction/api/v1.0/citibykes', methods=['GET'])
 def get_prediction():
     feature1 = float(request.args.get('day'))
     feature2 = float(request.args.get('hour'))
