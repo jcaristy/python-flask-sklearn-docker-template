@@ -1,0 +1,3 @@
+docker build . -t doctuscontainerregistry.azurecr.io/modelo-citibykes
+docker login doctuscontainerregistry.azurecr.io -u doctuscontainerregistry -p pOn6N96V8l9q/54RHROstj4GW+CLk=sn
+docker push doctuscontainerregistry.azurecr.io/modelo-citibykes
